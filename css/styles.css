@@ -606,19 +606,14 @@ fill: #ffffff;
 .modal-input:focus + .input-icon {
   fill: #4D5AE5;
 }
-.modal-field-one {
+.modal-field {
   margin-bottom: 8px;
 }
-.modal-field-two {
-  margin-bottom: 8px;
-}
-.modal-field-three {
-  margin-bottom: 8px;
-}
-.modal-field-four {
+
+.modal-field-comment {
   margin-bottom: 16px;
 }
-.modal-field-five {
+.modal-field-checkbox {
   margin-bottom: 24px;
 }
 .modal-label {
@@ -687,7 +682,6 @@ fill: #ffffff;
   border: 1px solid #2E2F4266;
   border-radius: 2px;
   margin-right: 8px;
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -700,6 +694,9 @@ fill: #ffffff;
   background-color: #404BBF;
   border: none;
   fill: #F4F4FD;
+}
+.check-text span {
+  display: inline-flex;
 }
 .modal-bottom-button {
   font-family: "Roboto", sans-serif;
