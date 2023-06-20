@@ -682,6 +682,7 @@ fill: #ffffff;
   border: 1px solid #2E2F4266;
   border-radius: 2px;
   margin-right: 8px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -694,9 +695,6 @@ fill: #ffffff;
   background-color: #404BBF;
   border: none;
   fill: #F4F4FD;
-}
-.check-text span {
-  display: inline-flex;
 }
 .modal-bottom-button {
   font-family: "Roboto", sans-serif;
