@@ -606,8 +606,20 @@ fill: #ffffff;
 .modal-input:focus + .input-icon {
   fill: #4D5AE5;
 }
-.modal-field {
-  margin-bottom: 18px;
+.modal-field-one {
+  margin-bottom: 8px;
+}
+.modal-field-two {
+  margin-bottom: 8px;
+}
+.modal-field-three {
+  margin-bottom: 8px;
+}
+.modal-field-four {
+  margin-bottom: 16px;
+}
+.modal-field-five {
+  margin-bottom: 24px;
 }
 .modal-label {
   font-size: 12px;
@@ -706,6 +718,8 @@ fill: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .modal-bottom-button:hover,
 .modal-bottom-button:focus {
