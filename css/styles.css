@@ -720,7 +720,9 @@ fill: #ffffff;
 .modal-bottom-button:focus {
   background-color: #404BBF;
 }
-
+.modal-link {
+  margin-left: 4px;
+}
 
 
 
