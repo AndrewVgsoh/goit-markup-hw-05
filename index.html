@@ -526,6 +526,9 @@
           </ul>
         </div>
       </div>
+      <form class="footer-form">
+        <input type="text">
+      </form>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -568,8 +571,15 @@
           <textarea class="modal-textarea" name="Comment" id="textarea" placeholder="Text input"></textarea>
         </div>
         <div class="modal-field">
-
+          <input type="checkbox" name="policy" id="policy" class="input-check visually-hidden" value="true">
+          <label for="policy" class="check-text">
+            <span>
+              <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-accept"></use>
+              </svg>
+            </span>I accept the terms and conditions of the<a href="">Privacy Policy</a></label>
         </div>
+        <button type="submit" class="modal-bottom-button">Send</button>
         </form>
       </div>
     </div>
