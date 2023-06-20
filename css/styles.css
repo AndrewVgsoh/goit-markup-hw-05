@@ -508,7 +508,15 @@ footer .site-logo {
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
-  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color:#404BBF;
+}
+.footer-svg {
+  margin-left: 16px;
+  fill: #ffffff;
 }
 
 .backdrop {
