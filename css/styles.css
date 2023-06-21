@@ -52,8 +52,6 @@ header {
 }
 .page-header{
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .section {
   padding-top: 94px;
@@ -692,8 +690,11 @@ fill: #ffffff;
 }
 .input-check:checked + .check-text span {
   background-color: #404BBF;
-  border: #404BBF;
+  border: none;
   fill: #F4F4FD;
+}
+.input-check:focus + .check-text span {
+  border-color: #404BBF;
 }
 .modal-bottom-button {
   font-family: "Roboto", sans-serif;
